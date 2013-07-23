@@ -58,7 +58,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    // second
 }
 
 - (void)viewDidAppear:(BOOL)animated
