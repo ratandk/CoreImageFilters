@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F2F975179D3EE1009E39A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F2F974179D3EE1009E39A4 /* UIKit.framework */; };
+		09F2F977179D3EE1009E39A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F2F976179D3EE1009E39A4 /* Foundation.framework */; };
+		09F2F979179D3EE1009E39A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F2F978179D3EE1009E39A4 /* CoreGraphics.framework */; };
+		09F2F97F179D3EE1009E39A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F2F97D179D3EE1009E39A4 /* InfoPlist.strings */; };
+		09F2F981179D3EE1009E39A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2F980179D3EE1009E39A4 /* main.m */; };
+		09F2F985179D3EE1009E39A4 /* CIFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2F984179D3EE1009E39A4 /* CIFAppDelegate.m */; };
+		09F2F987179D3EE1009E39A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F2F986179D3EE1009E39A4 /* Default.png */; };
+		09F2F989179D3EE1009E39A4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F2F988179D3EE1009E39A4 /* Default@2x.png */; };
+		09F2F98B179D3EE1009E39A4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F2F98A179D3EE1009E39A4 /* Default-568h@2x.png */; };
+		09F2F98E179D3EE1009E39A4 /* CIFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2F98D179D3EE1009E39A4 /* CIFViewController.m */; };
+		09F2F991179D3EE1009E39A4 /* CIFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F2F98F179D3EE1009E39A4 /* CIFViewController.xib */; };
+		09F2F998179D3F50009E39A4 /* colorful.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09F2F997179D3F50009E39A4 /* colorful.jpg */; };
+		09F2F99A179D3F7A009E39A4 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F2F999179D3F7A009E39A4 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09F2F971179D3EE1009E39A4 /* RDKCoreImageFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDKCoreImageFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F2F974179D3EE1009E39A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09F2F976179D3EE1009E39A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09F2F978179D3EE1009E39A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09F2F97C179D3EE1009E39A4 /* RDKCoreImageFilters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RDKCoreImageFilters-Info.plist"; sourceTree = "<group>"; };
+		09F2F97E179D3EE1009E39A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09F2F980179D3EE1009E39A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09F2F982179D3EE1009E39A4 /* RDKCoreImageFilters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RDKCoreImageFilters-Prefix.pch"; sourceTree = "<group>"; };
+		09F2F983179D3EE1009E39A4 /* CIFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIFAppDelegate.h; sourceTree = "<group>"; };
+		09F2F984179D3EE1009E39A4 /* CIFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIFAppDelegate.m; sourceTree = "<group>"; };
+		09F2F986179D3EE1009E39A4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		09F2F988179D3EE1009E39A4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		09F2F98A179D3EE1009E39A4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		09F2F98C179D3EE1009E39A4 /* CIFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIFViewController.h; sourceTree = "<group>"; };
+		09F2F98D179D3EE1009E39A4 /* CIFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIFViewController.m; sourceTree = "<group>"; };
+		09F2F990179D3EE1009E39A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CIFViewController.xib; sourceTree = "<group>"; };
+		09F2F997179D3F50009E39A4 /* colorful.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colorful.jpg; sourceTree = "<group>"; };
+		09F2F999179D3F7A009E39A4 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F2F96E179D3EE1009E39A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F2F99A179D3F7A009E39A4 /* CoreImage.framework in Frameworks */,
+				09F2F975179D3EE1009E39A4 /* UIKit.framework in Frameworks */,
+				09F2F977179D3EE1009E39A4 /* Foundation.framework in Frameworks */,
+				09F2F979179D3EE1009E39A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F2F968179D3EE1009E39A4 = {
+			isa = PBXGroup;
+			children = (
+				09F2F97A179D3EE1009E39A4 /* RDKCoreImageFilters */,
+				09F2F973179D3EE1009E39A4 /* Frameworks */,
+				09F2F972179D3EE1009E39A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09F2F972179D3EE1009E39A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F2F971179D3EE1009E39A4 /* RDKCoreImageFilters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09F2F973179D3EE1009E39A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09F2F999179D3F7A009E39A4 /* CoreImage.framework */,
+				09F2F974179D3EE1009E39A4 /* UIKit.framework */,
+				09F2F976179D3EE1009E39A4 /* Foundation.framework */,
+				09F2F978179D3EE1009E39A4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09F2F97A179D3EE1009E39A4 /* RDKCoreImageFilters */ = {
+			isa = PBXGroup;
+			children = (
+				09F2F983179D3EE1009E39A4 /* CIFAppDelegate.h */,
+				09F2F984179D3EE1009E39A4 /* CIFAppDelegate.m */,
+				09F2F98C179D3EE1009E39A4 /* CIFViewController.h */,
+				09F2F98D179D3EE1009E39A4 /* CIFViewController.m */,
+				09F2F98F179D3EE1009E39A4 /* CIFViewController.xib */,
+				09F2F97B179D3EE1009E39A4 /* Supporting Files */,
+			);
+			path = RDKCoreImageFilters;
+			sourceTree = "<group>";
+		};
+		09F2F97B179D3EE1009E39A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F2F997179D3F50009E39A4 /* colorful.jpg */,
+				09F2F97C179D3EE1009E39A4 /* RDKCoreImageFilters-Info.plist */,
+				09F2F97D179D3EE1009E39A4 /* InfoPlist.strings */,
+				09F2F980179D3EE1009E39A4 /* main.m */,
+				09F2F982179D3EE1009E39A4 /* RDKCoreImageFilters-Prefix.pch */,
+				09F2F986179D3EE1009E39A4 /* Default.png */,
+				09F2F988179D3EE1009E39A4 /* Default@2x.png */,
+				09F2F98A179D3EE1009E39A4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F2F970179D3EE1009E39A4 /* RDKCoreImageFilters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F2F994179D3EE1009E39A4 /* Build configuration list for PBXNativeTarget "RDKCoreImageFilters" */;
+			buildPhases = (
+				09F2F96D179D3EE1009E39A4 /* Sources */,
+				09F2F96E179D3EE1009E39A4 /* Frameworks */,
+				09F2F96F179D3EE1009E39A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDKCoreImageFilters;
+			productName = RDKCoreImageFilters;
+			productReference = 09F2F971179D3EE1009E39A4 /* RDKCoreImageFilters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F2F969179D3EE1009E39A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CIF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Org;
+			};
+			buildConfigurationList = 09F2F96C179D3EE1009E39A4 /* Build configuration list for PBXProject "RDKCoreImageFilters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09F2F968179D3EE1009E39A4;
+			productRefGroup = 09F2F972179D3EE1009E39A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F2F970179D3EE1009E39A4 /* RDKCoreImageFilters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F2F96F179D3EE1009E39A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F2F97F179D3EE1009E39A4 /* InfoPlist.strings in Resources */,
+				09F2F987179D3EE1009E39A4 /* Default.png in Resources */,
+				09F2F989179D3EE1009E39A4 /* Default@2x.png in Resources */,
+				09F2F98B179D3EE1009E39A4 /* Default-568h@2x.png in Resources */,
+				09F2F991179D3EE1009E39A4 /* CIFViewController.xib in Resources */,
+				09F2F998179D3F50009E39A4 /* colorful.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F2F96D179D3EE1009E39A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F2F981179D3EE1009E39A4 /* main.m in Sources */,
+				09F2F985179D3EE1009E39A4 /* CIFAppDelegate.m in Sources */,
+				09F2F98E179D3EE1009E39A4 /* CIFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09F2F97D179D3EE1009E39A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F2F97E179D3EE1009E39A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09F2F98F179D3EE1009E39A4 /* CIFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F2F990179D3EE1009E39A4 /* en */,
+			);
+			name = CIFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09F2F992179D3EE1009E39A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		09F2F993179D3EE1009E39A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09F2F995179D3EE1009E39A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDKCoreImageFilters/RDKCoreImageFilters-Prefix.pch";
+				INFOPLIST_FILE = "RDKCoreImageFilters/RDKCoreImageFilters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09F2F996179D3EE1009E39A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDKCoreImageFilters/RDKCoreImageFilters-Prefix.pch";
+				INFOPLIST_FILE = "RDKCoreImageFilters/RDKCoreImageFilters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F2F96C179D3EE1009E39A4 /* Build configuration list for PBXProject "RDKCoreImageFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F2F992179D3EE1009E39A4 /* Debug */,
+				09F2F993179D3EE1009E39A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F2F994179D3EE1009E39A4 /* Build configuration list for PBXNativeTarget "RDKCoreImageFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F2F995179D3EE1009E39A4 /* Debug */,
+				09F2F996179D3EE1009E39A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09F2F969179D3EE1009E39A4 /* Project object */;
+}
